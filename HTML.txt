@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polo Janderson Ribeiro</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background-color: #0D214F;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      color: #fff;
+    }
+    nav {
+      text-align: center;
+      margin-top: 20px;
+    }
+    nav a {
+      background-color: #FFA200;
+      color: #0D214F;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+      border-radius: 30px;
+      transition: background-color 0.3s ease;
+      display: inline-block;
+    }
+    nav a:hover {
+      background-color: #F8DCBF;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    footer {
+      background-color: #0D214F;
+      color: #FFFFFF;
+      text-align: center;
+      padding: 20px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    .logo {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .logo img {
+      max-width: 200px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    h2 {
+      color: #0D214F;
+    }
+    .image-container {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .image-container img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Polo Janderson Ribeiro</h1>
+  </header>
+  <!-- Imagem1 -->
+  <div class="image-container">
+    <img src="imagem1.jpg" alt="Imagem 1">
+  </div>
+  <nav>
+    <a href="#sobre">
+      <img src="caminho/para/sua/imagem_sobre_nos.jpg" alt="Sobre nós">
+      Sobre nós
+    </a>
+    <a href="#mestrado">
+      <img src="caminho/para/sua/imagem_mestrado_doutorado.jpg" alt="Mestrado e Doutorado">
+      Mestrado e Doutorado
+    </a>
+    <a href="#contato">
+      <img src="caminho/para/sua/imagem_contato.jpg" alt="Contato">
+      Contato
+    </a>
+    <a href="publique.html">
+      <img src="caminho/para/sua/imagem_publique_artigo.jpg" alt="Publique seu artigo">
+      Publique seu artigo
+    </a>
+    <a href="#artigos">
+      <img src="caminho/para/sua/imagem_artigos.jpg" alt="Artigos">
+      Artigos
+    </a>
+  </nav>
+  <section id="sobre">
+    <div class="container">
+      <h2>Sobre nós</h2>
+      <p>Oferecemos mestrado e doutorado em Ciências da educação, Teologia, Administração e Ciências da saúde. Entre em contato conosco!</p>
+    </div>
+  </section>
+  <!-- Imagem2 -->
+  <div class="image-container">
+    <img src="imagem2.jpg" alt="Imagem 2">
+  </div>
+  <section id="mestrado">
+    <div class="container">
+      <h2>Mestrado e Doutorado</h2>
+      <p>Entre em contato conosco para mais informações:<br>
+      Telefone: 74981497592<br>
+      Instagram: <a href="https://www.instagram.com/janderson.mestre">@janderson.mestre</a></p>
+    </div>
+  </section>
+  <!-- Imagem3 -->
+  <div class="image-container">
+    <img src="imagem3.jpg" alt="Imagem 3">
+  </div>
+  <section id="contato">
+    <div class="container">
+      <h2>Contato</h2>
+      <p>Telefone: 74981497592<br>
+      Instagram: <a href="https://www.instagram.com/janderson.mestre">@janderson.mestre</a></p>
+    </div>
+  </section>
+  <!-- Imagem4 -->
+  <div class="image-container">
+    <img src="imagem4.jpg" alt="Imagem 4">
+  </div>
+  <section id="artigos">
+    <div class="container">
+      <h2>Artigos</h2>
+      <p>Aqui serão exibidos os artigos publicados.</p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2024 Polo Janderson Ribeiro</p>
+  </footer>
+</body>
+</html>
